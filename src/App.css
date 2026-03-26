@@ -1,0 +1,8 @@
+/* Google Sora Font */
+body{
+    font-family: "Sora", sans-serif;
+}
+/* Tailwind Css */
+@import "tailwindcss";
+/* Daisy UI */
+@plugin "daisyui";

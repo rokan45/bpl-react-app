@@ -9,7 +9,8 @@
     "matches": 664,
     "runs": 34357,
     "wickets": 201,
-    "image": "https://i.ibb.co/sachin.jpg"
+    "image": "https://i.ibb.co.com/fd9NYN4Q/sasss.jpg",
+    "price": 950
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "matches": 516,
     "runs": 26000,
     "wickets": 4,
-    "image": "https://i.ibb.co/kohli.jpg"
+    "image": "https://i.ibb.co.com/3mZBHYpp/fgvdsk-dgs.jpg",
+    "price": 920
   },
   {
     "id": 3,
@@ -33,19 +35,21 @@
     "matches": 467,
     "runs": 18000,
     "wickets": 15,
-    "image": "https://i.ibb.co/rohit.jpg"
+    "image": "https://i.ibb.co.com/hJC2jxrC/roofjlkg.jpg",
+    "price": 870
   },
   {
     "id": 4,
     "name": "MS Dhoni",
     "country": "India",
-    "role": "Wicket-keeper Batsman",
+    "role": "Keeper-Batsman",
     "battingStyle": "Right-handed",
     "bowlingStyle": "Right-arm medium",
     "matches": 538,
     "runs": 17266,
     "wickets": 1,
-    "image": "https://i.ibb.co/dhoni.jpg"
+    "image": "https://i.ibb.co.com/yFkPgBfx/djfhjkl.jpg",
+    "price": 940
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     "matches": 339,
     "runs": 3154,
     "wickets": 1001,
-    "image": "https://i.ibb.co/warne.jpg"
+    "image": "https://i.ibb.co.com/DBx67sd/shjkbds.jpg",
+    "price": 890
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
     "matches": 430,
     "runs": 22358,
     "wickets": 6,
-    "image": "https://i.ibb.co/lara.jpg"
+    "image": "https://i.ibb.co.com/FkPzhcXp/nbhbdfmnbd.jpg",
+    "price": 860
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
     "matches": 460,
     "runs": 3717,
     "wickets": 916,
-    "image": "https://i.ibb.co/wasim.jpg"
+    "image": "https://i.ibb.co.com/v4C4gYB7/wajkdl-f.jpg",
+    "price": 910
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
     "matches": 560,
     "runs": 27483,
     "wickets": 8,
-    "image": "https://i.ibb.co/ponting.jpg"
+    "image": "https://i.ibb.co.com/6cy5nbfS/ricxij.jpg",
+    "price": 880
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
     "matches": 519,
     "runs": 25534,
     "wickets": 577,
-    "image": "https://i.ibb.co/kallis.jpg"
+    "image": "https://i.ibb.co.com/0pyxcgMP/jack.jpg",
+    "price": 850
   },
   {
     "id": 10,
@@ -117,66 +126,20 @@
     "matches": 495,
     "runs": 1261,
     "wickets": 1347,
-    "image": "https://i.ibb.co/murali.jpg"
+    "image": "https://i.ibb.co.com/MydcSMhM/mura.jpg",
+    "price": 900
   },
   {
     "id": 11,
     "name": "AB de Villiers",
     "country": "South Africa",
-    "role": "Wicket-keeper Batsman",
+    "role": "Keeper-Batsman",
     "battingStyle": "Right-handed",
     "bowlingStyle": "Right-arm medium",
     "matches": 420,
     "runs": 20014,
     "wickets": 0,
-    "image": "https://i.ibb.co/abdev.jpg"
-  },
-  {
-    "id": 12,
-    "name": "Shakib Al Hasan",
-    "country": "Bangladesh",
-    "role": "All-rounder",
-    "battingStyle": "Left-handed",
-    "bowlingStyle": "Left-arm spin",
-    "matches": 428,
-    "runs": 14149,
-    "wickets": 699,
-    "image": "https://i.ibb.co/shakib.jpg"
-  },
-  {
-    "id": 13,
-    "name": "Kumar Sangakkara",
-    "country": "Sri Lanka",
-    "role": "Wicket-keeper Batsman",
-    "battingStyle": "Left-handed",
-    "bowlingStyle": "Rarely bowls",
-    "matches": 594,
-    "runs": 28016,
-    "wickets": 0,
-    "image": "https://i.ibb.co/sanga.jpg"
-  },
-  {
-    "id": 14,
-    "name": "Glenn McGrath",
-    "country": "Australia",
-    "role": "Bowler",
-    "battingStyle": "Right-handed",
-    "bowlingStyle": "Right-arm fast-medium",
-    "matches": 376,
-    "runs": 1109,
-    "wickets": 949,
-    "image": "https://i.ibb.co/mcgrath.jpg"
-  },
-  {
-    "id": 15,
-    "name": "Chris Gayle",
-    "country": "West Indies",
-    "role": "Batsman",
-    "battingStyle": "Left-handed",
-    "bowlingStyle": "Right-arm off-spin",
-    "matches": 483,
-    "runs": 23057,
-    "wickets": 167,
-    "image": "https://i.ibb.co/gayle.jpg"
+    "image": "https://i.ibb.co.com/23qqq7vV/ab.jpg",
+    "price": 930
   }
 ]

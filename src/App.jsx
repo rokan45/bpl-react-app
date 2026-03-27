@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Banner from './components/HeroBanner/Banner'
 import Player from './components/Player/Player'
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 
 
 const loadData = async () => {
@@ -13,16 +13,19 @@ const loadData = async () => {
 
 function App() {
   const playerPromise = loadData();
+
+  const [coin,setCoin]=useState(5000)
+
   return (
     <>
       <header>
-        <Navbar></Navbar>
+        <Navbar coin={coin}></Navbar>
         <Banner></Banner>
       </header>
 
       <main>
         <Suspense fallback={<span className="loading loading-bars flex mx-auto justify-center items-center mt-4"></span>}>
-          <Player playerPromise={playerPromise} ></Player>
+          <Player playerPromise={playerPromise} coin={coin} setCoin={setCoin} ></Player>
         </Suspense>
       </main>
     </>

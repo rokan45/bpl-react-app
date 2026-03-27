@@ -2,7 +2,7 @@ import React, { use, useState } from 'react';
 import PlayerCard from './PlayerCard';
 import SelectedPlayer from './SelectedPlayer';
 
-const Player = ({ playerPromise }) => {
+const Player = ({ playerPromise,coin,setCoin }) => {
     // console.log(playerPromise)
     const playerData = use(playerPromise);
     // console.log(playerData);
@@ -24,9 +24,9 @@ const Player = ({ playerPromise }) => {
             </div>
             {
                 select === "available" ?
-                    <div className='grid grid-cols-3 gap-5'>
+                    <div className='grid grid-cols-1 gap-5 mx-auto md:grid-cols-2 lg:grid-cols-3 '>
                         {
-                            playerData.map(player => <PlayerCard key={player.id} player={player}></PlayerCard>)
+                            playerData.map(player => <PlayerCard key={player.id} player={player} coin={coin} setCoin={setCoin}></PlayerCard>)
                         }
                     </div>
                     :

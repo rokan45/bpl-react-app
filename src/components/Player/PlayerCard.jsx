@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import coinImg from './../../assets/dollar 1.png'
 
-const PlayerCard = ({ player, coin, setCoin }) => {
+const PlayerCard = ({ player, coin, setCoin,selectPlayer,setSelectPlayer}) => {
     // console.log(player)
     const [selectBtn, setSelectBtn] = useState(false)
 
@@ -21,6 +21,8 @@ const PlayerCard = ({ player, coin, setCoin }) => {
             // alert(`You have purchased ${name}`)
         }
         setSelectBtn(true);
+
+        setSelectPlayer([...selectPlayer,player])
     }
 
     return (

@@ -1,6 +1,7 @@
 import { Menu } from 'lucide-react'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
+import Banner from './components/HeroBanner/Banner'
 
 function App() {
   
@@ -9,6 +10,7 @@ function App() {
     <>
     <header>
       <Navbar></Navbar>
+      <Banner></Banner>
     </header>
     </>
   )

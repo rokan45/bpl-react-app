@@ -25,7 +25,7 @@ const Player = ({ playerPromise,coin,setCoin }) => {
             </div>
             {
                 select === "available" ?
-                    <div className='grid grid-cols-1 gap-5 mx-auto md:grid-cols-2 lg:grid-cols-3 '>
+                    <div className='grid grid-cols-2 gap-5 mx-auto md:grid-cols-3 lg:grid-cols-4'>
                         {
                             playerData.map(player => <PlayerCard key={player.id} player={player} coin={coin} setCoin={setCoin} selectPlayer={selectPlayer} setSelectPlayer={setSelectPlayer}></PlayerCard>)
                         }

@@ -4,7 +4,7 @@ import logo from './../../assets/logo.png'
 
 const Navbar = ({coin}) => {
     return (
-        <div className="navbar bg-base-100 shadow-sm px-2">
+        <div className="navbar bg-base-100 shadow-sm px-2 mx-auto rounded-2xl">
             <div className="flex-1 ml-3">
                <img src={logo} alt="" width={"50px"} height={"50px"} />
             </div>

@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar'
 import Banner from './components/HeroBanner/Banner'
 import Player from './components/Player/Player'
 import { Suspense, useState } from 'react'
+import Footer from './components/Footer/Footer'
 
 
 const loadData = async () => {
@@ -28,6 +29,9 @@ function App() {
           <Player playerPromise={playerPromise} coin={coin} setCoin={setCoin} ></Player>
         </Suspense>
       </main>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </>
   )
 }
